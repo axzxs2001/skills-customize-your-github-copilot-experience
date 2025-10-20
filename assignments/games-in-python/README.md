@@ -1,19 +1,48 @@
 
-# 🎮 Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+# 📘 Assignment: Hangman Game
 
-## � What You'll Build
+## 🎯 Objective
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+通过本作业，你将使用 Python 字符串、循环和条件语句，构建一个经典的单词猜测游戏 Hangman。你将练习如何处理用户输入、字符串操作和游戏逻辑。
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+## 📝 Tasks
 
-## ✅ Must Have's
+### 🛠️ 随机选择单词与初始化
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Description
+编写代码，从预定义的单词列表中随机选择一个单词，并初始化游戏所需的变量（如剩余尝试次数、已猜字母等）。
+
+#### Requirements
+Completed program should:
+
+- 包含至少 5 个英文单词的列表
+- 随机选择一个单词作为本轮游戏目标
+- 初始化剩余尝试次数（如 6 次）和已猜字母列表
+
+
+### 🛠️ 用户猜测与游戏主循环
+
+#### Description
+实现主游戏循环，提示用户输入字母，判断是否猜中，并更新游戏状态。显示当前猜测进度（如 _ a _ _ _），并跟踪错误次数。
+
+#### Requirements
+Completed program should:
+
+- 接收用户输入的字母并进行有效性检查
+- 显示当前单词猜测进度（如 _ a _ _ _）
+- 跟踪并显示剩余错误尝试次数
+- 游戏在猜中全部字母或尝试次数用尽时结束
+
+
+### 🛠️ 游戏结束与结果显示
+
+#### Description
+在游戏结束时，显示玩家胜利或失败信息，并揭示完整单词。
+
+#### Requirements
+Completed program should:
+
+- 游戏胜利时显示祝贺信息
+- 游戏失败时显示鼓励信息，并揭示目标单词
+- 支持多轮游戏或退出选项（可选）
